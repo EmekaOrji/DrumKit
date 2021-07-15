@@ -37,6 +37,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+.keys .key .i {
+  position: absolute;
+  opacity: 0;
+  width: 40%;
+  background: none;
+  fill: red;
+  color: black;
+}
 .keys .key span {
   font-size: 0.5em;
   position: absolute;
@@ -64,6 +72,13 @@ body {
   transform: scale(1.15);
   background: wheat;
 }
+.keys .key:hover .i {
+  display: inline-block;
+  opacity: 1;
+}
+.keys .key:hover kbd {
+  opacity: 0;
+}
 .keys .key:hover span {
   top: 70%;
   opacity: 1;
@@ -78,6 +93,13 @@ body {
   padding: 3% 4.25%;
   transform: scale(0.95);
   background: wheat;
+}
+.keys .playing .i {
+  display: inline-block;
+  opacity: 1;
+}
+.keys .playing kbd {
+  display: none;
 }
 .keys .playing::before {
   content: "";
