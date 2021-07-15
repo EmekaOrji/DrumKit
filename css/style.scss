@@ -28,9 +28,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    i {
+    .i {
       position: absolute;
       opacity: 0;
+      width: 40%;
+      background: none;
+      fill: red;
+      color: black;
     }
     span {
       font-size: 0.5em;
@@ -58,7 +62,7 @@ body {
     &:hover {
       transform: scale(1.15);
       background: wheat;
-      i {
+      .i {
         display: inline-block;
         opacity: 1;
       }
@@ -79,7 +83,7 @@ body {
   .playing {
     background: unset;
     padding: 3% 4.25%;
-    i {
+    .i {
       display: inline-block;
       opacity: 1;
     }
