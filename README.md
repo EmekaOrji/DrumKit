@@ -1,2 +1,2 @@
 # DrumKit
-JavaScript 30 Days - Simple Styled Drumkit
+[JavaScript 30 Days](https://github.com/wesbos/JavaScript30) - Simple Styled Drumkit
